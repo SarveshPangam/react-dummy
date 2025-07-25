@@ -1,7 +1,7 @@
 # Multi-stage build for Vite React TypeScript app
 
 # Stage 1: Build stage
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # Set working directory
 WORKDIR /app
